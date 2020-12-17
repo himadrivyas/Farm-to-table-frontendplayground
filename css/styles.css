@@ -1,0 +1,45 @@
+/*General styling*/
+body{
+	margin:0;
+	padding:0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+/*Custome classes*/
+
+.font-weight-normal{
+	font-weight: 400;
+}
+
+
+.font-weight-medium{
+	font-weight: 700;
+}
+
+.font-weight-bold{
+	font-weight: 900;
+}
+.white-color{
+	color: white;
+}
+
+/*Custom named classes*/
+.blue-background{
+	background-color: #A6DCEF;
+}
+
+.main-content{
+	margin:20% auto;
+}
+
+.form-container{
+	background-color: white;
+	padding:1em;
+	margin: 1em 0;
+	border-radius: 10px;
+	border:none;
+}
