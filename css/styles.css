@@ -4,7 +4,7 @@ body{
 	padding:0;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,button, span{
 	font-family: 'Roboto', sans-serif;
 	color: white;
 }
@@ -33,13 +33,44 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .main-content{
-	margin:20% auto;
+	/*margin:20% auto;*/
+	/*display: grid;
+	grid-template-columns: 50% 50%;
+	justify-content: space-between;
+	align-items: center;*/
+
 }
 
+.main-content> .col-sm{
+	margin-top:15%;
+}
 .form-container{
 	background-color: white;
-	padding:1em;
 	margin: 1em 0;
+	padding: 2em;
 	border-radius: 10px;
 	border:none;
+	width:100%;
+	height: auto;
+	/*min-height: 300px;*/
+}
+
+.blue-button{
+	width:100%;
+	background-color: rgba(19, 33, 83, 0.73) !important;
+	border-color: rgba(19, 33, 83, 0.73) !important;
+	border-radius: 10px !important; 
+	padding: 10px 20px !important;
+}
+
+.green-button{
+	background-color:#18DA4E !important;
+	border-color: #18DA4E !important;
+	border-radius: 10px !important; 
+	padding: 15px 20px!important;
+}
+
+.form-control{
+	border: 1px solid rgb(222,222,222) !important;
+    box-shadow: 4px 6px 7px rgba(0,0,0,0.25)!important;
 }
